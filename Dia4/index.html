@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blackjack </title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    
+    <h1>
+    
+    <img src="./image/title.webp" class="titulo">
+    </img>
+
+    </h1>
+
+    <p><strong>Jugador:</strong> <span id="player-score">0</span></p>
+    <div id="player-cards"></div>
+
+    <p><strong>Dealer:</strong> <span id="dealer-score">0</span></p>
+    <div id="dealer-cards"></div>
+
+    <button onclick="drawCard()">Pedir carta</button>
+    <button onclick="stand()">Plantarse</button>
+
+    <p id="result"></p>
+    
+    <button id="restart-btn" onclick="restartGame()" style="display:none;">Volver a intentar</button>
+  
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

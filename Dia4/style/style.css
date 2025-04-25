@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url(../image/poker.jpg);
+  }
+  
+  .titulo {
+    margin-bottom: 20px;
+    height: max-content;
+  }
+  
+  img {
+    height: 200px;
+    margin: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  #result {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
